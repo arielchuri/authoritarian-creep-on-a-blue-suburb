@@ -1,0 +1,77 @@
+Category,Subcategory,Data Point,Value,Color Code
+Demographics,Basic Info,Age,42,Blue
+Demographics,Basic Info,Gender,Female,Blue
+Demographics,Basic Info,Ethnicity,Mixed Asian-American (Chinese) and Hispanic (Mexican-American),Blue
+Demographics,Basic Info,Marital Status,Married,Blue
+Demographics,Basic Info,Children,2 (ages 12 and 9),Blue
+Demographics,Basic Info,Household Size,4,Blue
+Demographics,Basic Info,Sexual Orientation,Heterosexual,Blue
+Demographics,Basic Info,Religious Affiliation,Non-practicing Buddhist/Catholic (culturally mixed),Blue
+Economic Profile,Income,Individual Income,$145000 annually,Green
+Economic Profile,Income,Household Income,$275000 annually,Green
+Economic Profile,Career,Occupation,Senior Marketing Director at pharmaceutical company (NYC),Green
+Economic Profile,Career,Spouse Occupation,Software Engineering Manager at fintech startup (remote),Green
+Economic Profile,Career,Employment Status,Full-time hybrid (3 days NYC office 2 days remote),Green
+Economic Profile,Assets,Home Ownership,Yes (purchased 2018 for $850000 current value ~$1.1M),Green
+Economic Profile,Assets,Mortgage,$485000 remaining on 30-year fixed at 3.2%,Green
+Economic Profile,Assets,Property Taxes,$28500 annually,Green
+Economic Profile,Assets,Investment Portfolio,$340000 (401k IRAs index funds),Green
+Economic Profile,Assets,Savings,$65000 emergency fund,Green
+Economic Profile,Cash Flow,Monthly Discretionary Income,~$3200 after all expenses,Green
+Education,Personal,Highest Degree,MBA from NYU Stern (2008),Purple
+Education,Personal,Undergraduate,BA Economics Columbia University (2004),Purple
+Education,Family,Children's Education,Public school (Montclair school district),Purple
+Education,Professional,Continuing Education,Executive leadership programs marketing conferences,Purple
+Geographic & Housing,Location,Neighborhood,Upper Montclair (near schools and parks),Orange
+Geographic & Housing,Property,Home Type,4-bedroom colonial built in 1925 renovated 2019,Orange
+Geographic & Housing,Transportation,Commute,NJ Transit train to NYC (45 minutes door-to-door),Orange
+Geographic & Housing,Transportation,Vehicles,2 cars (2022 Tesla Model Y 2020 Honda Pilot),Orange
+Geographic & Housing,History,Years in Montclair,7 years,Orange
+Geographic & Housing,History,Previous Residence,Brooklyn NY (Park Slope),Orange
+Political Profile,Affiliation,Party Affiliation,Democratic,Red
+Political Profile,Engagement,Political Engagement,High (votes in all elections volunteers for campaigns),Red
+Political Profile,Issues,Key Issues,Education funding climate change healthcare immigration,Red
+Political Profile,History,Voting History,Consistent Democratic voter since 2004,Red
+Political Profile,Involvement,Civic Involvement,PTA member school board meeting attendee town hall participant,Red
+Political Profile,Financial,Donations,$2500 annually to political candidates and causes,Red
+Consumer Behavior,Shopping,Grocery Shopping,Whole Foods (60%) local farmers market (25%) ShopRite (15%),Yellow
+Consumer Behavior,Shopping,Retail Shopping,Target online shopping (Amazon direct-to-consumer brands),Yellow
+Consumer Behavior,Dining,Restaurant Frequency,3-4 restaurant meals per week (mix of casual and upscale),Yellow
+Consumer Behavior,Technology,Devices,iPhone 14 Pro MacBook Pro iPad Apple Watch,Yellow
+Consumer Behavior,Technology,Streaming Services,Netflix Disney+ Hulu HBO Max Apple TV+,Yellow
+Consumer Behavior,Technology,Social Media,LinkedIn (professional) Instagram (personal) Facebook (minimal),Yellow
+Consumer Behavior,Technology,News Sources,New York Times Washington Post NPR local news apps,Yellow
+Consumer Behavior,Spending,Children's Education/Activities,$1800/month,Yellow
+Consumer Behavior,Spending,Travel,$12000 annually (2 family vacations + weekend trips),Yellow
+Consumer Behavior,Spending,Health/Wellness,$400/month (gym yoga organic food premium),Yellow
+Consumer Behavior,Spending,Home Improvement,$8000 annually,Yellow
+Lifestyle & Values,Core Values,Primary Values,Diversity education environmental sustainability social justice,Pink
+Lifestyle & Values,Health,Health Consciousness,High (organic food regular exercise wellness apps),Pink
+Lifestyle & Values,Environment,Environmental Awareness,Drives electric vehicle solar panels composts,Pink
+Lifestyle & Values,Culture,Cultural Activities,Museums theater music concerts local arts events,Pink
+Lifestyle & Values,Fitness,Physical Activity,Yoga 3x/week hiking cycling tennis,Pink
+Lifestyle & Values,Travel,Travel Preferences,Cultural destinations eco-friendly accommodations educational trips,Pink
+Social Network,Friends,Friend Groups,Other parents work colleagues college alumni neighborhood friends,Teal
+Social Network,Community,Montclair Film Festival,Volunteer,Teal
+Social Network,Community,Environmental Action Committee,Member,Teal
+Social Network,Community,Youth Sports League,Parent volunteer,Teal
+Social Network,Community,Book Club,Participant,Teal
+Social Network,Professional,Marketing Executives Group,Member,Teal
+Social Network,Professional,Industry Conferences,Regular attendee,Teal
+Social Network,Professional,NYU Alumni Association,Member,Teal
+Social Network,Professional,Women in Business Networks,Active participant,Teal
+Media Consumption,News,Daily News Consumption,45 minutes daily (morning podcasts evening reading),Gray
+Media Consumption,Entertainment,Daily Entertainment,2 hours daily (streaming podcasts reading),Gray
+Media Consumption,Social Media,Daily Social Media,30 minutes daily (primarily LinkedIn and Instagram),Gray
+Media Consumption,Audio,Podcast Preferences,News (NPR NYT The Daily) business parenting wellness,Gray
+Media Consumption,Reading,Monthly Reading,2 books per month (mix of fiction business social issues),Gray
+Decision-Making,Purchases,Purchase Decisions,Research-heavy reviews recommendations from friends,Brown
+Decision-Making,Politics,Political Decisions,Multiple news sources candidate forums endorsements,Brown
+Decision-Making,Brands,Brand Loyalty,Moderate to high for trusted brands willing to pay premium for quality,Brown
+Decision-Making,Information,Information Sources,Trusted news outlets peer recommendations expert opinions,Brown
+Decision-Making,Risk,Risk Tolerance,Moderate conservative (financial) progressive (social issues),Brown
+Psychographic Profile,Personality,Personality Type,Analytical socially conscious achievement-oriented,Black
+Psychographic Profile,Motivation,Primary Motivations,Family success career advancement community improvement,Black
+Psychographic Profile,Concerns,Main Concerns,Children's future climate change political polarization economic inequality,Black
+Psychographic Profile,Goals,Aspirations,Leadership roles positive community impact financial security,Black
+Psychographic Profile,Stress,Stress Factors,Work-life balance commute political climate housing costs,Black

@@ -1,0 +1,201 @@
+[index.html](index.html) | [Miro Board](mirolink) | [GitHub Repository](githublink)
+
+# Persona Two
+
+## Michael "Mike" O'Sullivan
+
+### Basic Demographics
+
+**Age**: 38  
+**Gender**: Male  
+**Ethnicity**: White (Irish, Italian, German, Polish ancestry)  
+**Marital Status**: Married  
+**Children**: 2 (ages 8 and 5)  
+**Household Size**: 4  
+**Sexual Orientation**: Heterosexual  
+**Religious Affiliation**: Catholic (moderately practicing)
+
+### Economic Profile
+
+**Individual Income**: $52,000 annually  
+**Household Income**: $78,000 annually  
+**Occupation**: Union electrician (IBEW Local 102)  
+**Spouse Occupation**: Part-time administrative assistant at medical office  
+**Employment Status**: Full-time, various job sites in North Jersey/NYC area  
+**Home Ownership**: Yes (purchased 2019 for $465,000, current value ~$580,000)  
+**Mortgage**: $398,000 remaining on 30-year fixed at 4.1%  
+**Property Taxes**: $18,200 annually  
+**Investment Portfolio**: $28,000 (401k, small IRA)  
+**Savings**: $8,500 emergency fund  
+**Monthly Discretionary Income**: ~$450 after all expenses
+
+### Education
+
+**Highest Degree**: High School Diploma, Trade School Certificate (Electrical)  
+**Trade School**: Lincoln Technical Institute (2006)  
+**Apprenticeship**: 4-year IBEW electrical apprenticeship program  
+**Children's Education**: Public school (Montclair school district)  
+**Continuing Education**: Electrical code updates, safety certifications
+
+### Geographic & Housing
+
+**Neighborhood**: Lower Montclair (near train station and commercial areas)  
+**Home Type**: 3-bedroom ranch built in 1955, needs updates  
+**Commute**: Union van pool or personal truck to various job sites (30-75 minutes)  
+**Transportation**: 2 vehicles (2018 Ford F-150, 2016 Honda Civic)  
+**Years in Montclair**: 5 years  
+**Previous Residence**: Bloomfield, NJ (childhood home area)
+
+### Political Profile
+
+**Party Affiliation**: Independent/Unaffiliated  
+**Political Engagement**: Moderate (votes in presidential elections, some local)  
+**Key Issues**: Jobs, healthcare costs, education funding, infrastructure  
+**Voting History**: Mixed - traditionally Democratic, some Republican votes  
+**Civic Involvement**: Occasional town events, youth sports volunteer  
+**Donations**: $200 annually to local charities and church
+
+### Consumer Behavior
+
+**Shopping Patterns**:
+- Grocery: ShopRite (70%), Costco (20%), local deli (10%)
+- Retail: Target, Home Depot, Amazon for basics
+- Dining: 1-2 restaurant meals per week (casual dining, pizza)
+
+**Technology Usage**:
+- Devices: iPhone 11, older Dell laptop, basic tablet
+- Streaming: Netflix, YouTube, ESPN+, local cable
+- Social Media: Facebook (primary), Instagram (limited), no Twitter
+- News Sources: Local news, ESPN, some cable news, Facebook feeds
+
+**Spending Priorities**:
+- Children's activities: $300/month (youth sports, music lessons)
+- Home maintenance: $3,000 annually (DIY when possible)
+- Union dues and work equipment: $1,200 annually
+- Family outings: $2,500 annually (beach trips, local attractions)
+
+### Lifestyle & Values
+
+**Core Values**: Hard work, family first, community loyalty, fair treatment  
+**Health Consciousness**: Moderate (tries to stay active, concerned about costs)  
+**Environmental Awareness**: Practical (energy efficiency for cost savings)  
+**Cultural Activities**: Local festivals, high school sports, church events  
+**Physical Activity**: Softball league, coaching kids' sports, weekend yard work  
+**Travel Preferences**: Regional trips, beach vacations, visiting family
+
+### Social Network
+
+**Friend Groups**: Work colleagues, neighborhood parents, childhood friends  
+**Community Involvement**: 
+- Youth baseball league coach
+- Parish volunteer for fundraising events
+- Neighborhood block party organizer
+- Union local meeting attendee
+
+**Professional Networks**: 
+- IBEW Local 102 members
+- Trade contractor relationships
+- Former apprenticeship colleagues
+- Local business connections
+
+### Media Consumption
+
+**News Consumption**: 20 minutes daily (morning radio, evening local news)  
+**Entertainment**: 2.5 hours daily (sports, Netflix, YouTube)  
+**Social Media**: 45 minutes daily (primarily Facebook)  
+**Podcast Preferences**: Sports talk, true crime, some political commentary  
+**Reading**: Local newspaper, trade magazines, minimal book reading
+
+### Decision-Making Influences
+
+**Purchase Decisions**: Price-conscious, brand loyalty to proven products  
+**Political Decisions**: Economic impact on family, candidate character  
+**Brand Loyalty**: High for tools/work equipment, moderate for household items  
+**Information Sources**: Friends, family, coworkers, local community  
+**Risk Tolerance**: Conservative (financial), moderate (career/social issues)
+
+### Psychographic Profile
+
+**Personality Type**: Practical, community-oriented, family-focused  
+**Motivations**: Family stability, fair wages, respect for hard work  
+**Concerns**: Job security, healthcare costs, children's future opportunities  
+**Aspirations**: Home ownership stability, children's college education, retirement security  
+**Stress Factors**: Economic uncertainty, work-life balance, rising costs
+
+---
+
+### Day in the Life: Michael "Mike" O'Sullivan
+
+#### 5:30 AM - Early Start
+
+Mike's phone alarm goes off in his Lower Montclair ranch home. He immediately checks his work phone for any messages from his foreman about today's job site location. Today he's working on a commercial electrical installation in Newark. He quietly gets ready, trying not to wake his wife Jennifer or the kids.
+
+#### 6:00 AM - Morning Routine
+
+In the kitchen, Mike starts his Mr. Coffee machine and makes two cups - one for now, one for his thermos. He checks Facebook on his phone while the coffee brews, scrolling through updates from high school friends and union colleagues. He sees a post from his Local 102 about upcoming contract negotiations that he'll need to discuss with the guys today.
+
+#### 6:15 AM - Work Preparation
+
+Mike loads his tools into his Ford F-150, checking that he has everything needed for today's conduit installation. He grabs his hard hat, safety vest, and lunch Jennifer packed the night before. He starts the truck and listens to NJ 101.5 for traffic updates and local news while the engine warms up.
+
+#### 6:45 AM - Commute
+
+The drive to Newark takes 35 minutes in morning traffic. Mike listens to the Dennis and Judi show on NJ 101.5, occasionally switching to ESPN Radio for sports updates. He stops at a QuickChek for a breakfast sandwich and another coffee, chatting briefly with the familiar clerk about the weather and local construction projects.
+
+#### 7:30 AM - Job Site Arrival
+
+At the commercial site, Mike meets with his crew of four other electricians. They review today's work plan and safety protocols. Mike takes pride in his reputation as a skilled tradesman and often mentors the younger apprentices. The morning is spent running electrical conduit through a new office building.
+
+#### 10:00 AM - Morning Break
+
+During the 15-minute break, Mike checks his phone for messages from Jennifer about the kids' after-school activities. His 8-year-old son Danny has Little League practice tonight, and his 5-year-old daughter Emma has a dance recital this weekend. He responds to a text from his neighbor about organizing the annual block party.
+
+#### 12:00 PM - Lunch Break
+
+Mike eats his sandwich (turkey and cheese on white bread) with his crew in the site trailer. The conversation covers the Yankees' recent performance, upcoming union contract negotiations, and concerns about healthcare premium increases. One colleague mentions a side job opportunity that Mike considers for weekend work.
+
+#### 2:30 PM - Afternoon Work
+
+The afternoon involves installing electrical panels and connecting circuits. Mike enjoys the problem-solving aspects of electrical work and takes satisfaction in quality craftsmanship. He teaches an apprentice the proper technique for wire pulling, emphasizing safety and efficiency.
+
+#### 4:00 PM - End of Workday
+
+Mike cleans up his tools and completes his timesheet. He discusses tomorrow's work plan with the foreman and confirms his availability for Saturday overtime. The extra money would help with Emma's dance class expenses and building up the family's emergency fund.
+
+#### 4:45 PM - Commute Home
+
+On the drive home, Mike calls his father to check in and discuss plans for watching the Yankees game together this weekend. He stops at Home Depot to pick up materials for a weekend project - fixing the front steps that have been bothering Jennifer. He pays with cash to stay within his monthly budget.
+
+#### 5:30 PM - Family Time
+
+At home, Mike changes out of his work clothes and helps Danny with his math homework while Jennifer finishes dinner. The family eats together, discussing the kids' school day and weekend plans. Mike suggests a trip to the beach if the weather holds up, calculating the gas and parking costs in his head.
+
+#### 7:00 PM - Community Engagement
+
+Mike drives Danny to Little League practice at the local park. As an assistant coach, he helps with batting practice and encourages the kids. He chats with other parents about the upcoming season and volunteers to help with field maintenance this Saturday morning.
+
+#### 8:30 PM - Evening Routine
+
+Back home, Mike helps with bedtime routines and reads a story to Emma. He then settles into his living room recliner to watch the Yankees game on YES Network. During commercial breaks, he scrolls through Facebook, liking photos from friends and sharing a post about supporting local businesses.
+
+#### 9:30 PM - Personal Time
+
+Mike checks his bank account balance on his phone app and reviews this week's expenses. He looks at his 401k balance and considers increasing his contribution when the next raise comes through. He texts his brother about their weekend plans to work on his brother's deck repair project.
+
+#### 10:00 PM - Planning Ahead
+
+Mike reviews tomorrow's weather forecast and prepares his work clothes for another day at the Newark site. He sets his phone charger by the bed and checks that his work boots are ready. He briefly looks at his union's website for updates on contract negotiations and upcoming training opportunities.
+
+#### 10:15 PM - Wind Down
+
+Mike watches the end of the Yankees game while Jennifer reads beside him. They discuss plans for Emma's dance recital this weekend and whether they can afford to take the family out to dinner afterward. He sets his phone alarm for 5:30 AM and prepares for another day of honest work.
+
+---
+
+This profile and day-in-the-life scenario represents a lower-middle-class white male resident of Montclair who balances skilled trade work with family responsibilities and community involvement, representing a different but equally important demographic segment of the community.
+
+## Asset Mapping
+
+## Speculative Artifact
+
+## Stakeholder Engagement Design
