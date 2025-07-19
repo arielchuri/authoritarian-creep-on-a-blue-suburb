@@ -12,11 +12,10 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
-      - name: Set up permissions for build script
-        run: chmod +x docMaker/build/markdowntopdf.sh
-
-      - name: Build site
-        run: ./docMaker/build/markdowntopdf.sh
+      - name: List output files for debugging
+        run: |
+          echo "Files in output directory:"
+          ls -la docMaker/output/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
