@@ -10,6 +10,7 @@ show_help() {
   echo "This script processes one or more markdown files (without extension) from src/,"
   echo "combines them with head.txt and tail.txt, and outputs HTML and PDF to output/."
   echo "A progress bar and summary are shown."
+  echo "At the end, all PDFs are merged into authoritarian-creep-on-a-blue-suburb.pdf"
 }
 
 SHOW_ERRORS=0
@@ -42,6 +43,7 @@ START_TIME=$(date +%s)
 FILES=($@)
 NUM_FILES=${#FILES[@]}
 PROCESSED=0
+PDF_FILES=()
 
 print_progress() {
   local current=$1
@@ -76,8 +78,22 @@ for arg in "$@"; do
     weasyprint output/$arg.html output/$arg.pdf 2>/dev/null
   fi
   echo "    - PDF generated: output/$arg.pdf"
+  
+  # Add PDF to the list for merging
+  PDF_FILES+=("output/$arg.pdf")
 
 done
+
+# Merge all PDFs
+if [ ${#PDF_FILES[@]} -gt 0 ]; then
+  echo "Merging PDFs into authoritarian-creep-on-a-blue-suburb.pdf..."
+  if [ $SHOW_ERRORS -eq 1 ]; then
+    pdfunite "${PDF_FILES[@]}" output/authoritarian-creep-on-a-blue-suburb.pdf
+  else
+    pdfunite "${PDF_FILES[@]}" output/authoritarian-creep-on-a-blue-suburb.pdf 2>/dev/null
+  fi
+  echo "    - Merged PDF created: output/authoritarian-creep-on-a-blue-suburb.pdf"
+fi
 
 END_TIME=$(date +%s)
 ELAPSED=$((END_TIME - START_TIME))
@@ -88,3 +104,4 @@ printf "\n"
 
 echo "\nAll $NUM_FILES file(s) processed in $ELAPSED seconds."
 echo "HTML and PDF files are in the output/ directory."
+echo "Merged PDF: output/authoritarian-creep-on-a-blue-suburb.pdf"

@@ -1,7 +1,3 @@
-[**index.html**](https://arielchuri.github.io/authoritarian-creep-on-a-blue-subarb) | [PDF](https://arielchuri.github.io/authoritarian-creep-on-a-blue-subarb) | [Miro board](https://miro.com/app/board/uXjVJc427fc=/?share_link_id=98342606080) | [GitHub Repository](https://arielchuri.github.io/authoritarian-creep-on-a-blue-suburb/)
-
-Futures Study
-
 # Potential Effects of Authoritarian Creep on a Blue Suburb
 
 ## Context
