@@ -17,4 +17,7 @@
     <!-- <link rel="stylesheet" href="resume.css" /> -->
     <div class="container">
     <strong>FUTURE STUDY</strong>
-<a href="index.html">index.html</a> | <a href="authoritarian-creep-on-a-blue-suburb.pdf">PDF</a> | <a href="https://miro.com/app/board/uXjVJc427fc=/?share_link_id=98342606080">Miro board</a> | <a href="https://github.com/arielchuri/authoritarian-creep-on-a-blue-suburb/">GitHub Repository</a>
+<a href="index.html">index.html</a>
+ | <a href="authoritarian-creep-on-a-blue-suburb.pdf">PDF</a>
+ | <a href="https://miro.com/app/board/uXjVJcEgEQ8=/?share_link_id=374417314441">Miro board</a>
+ | <a href="https://github.com/arielchuri/authoritarian-creep-on-a-blue-suburb/">GitHub Repository</a>

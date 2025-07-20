@@ -12,26 +12,19 @@ The residents of Montclair, NJ under a gradual, national shift to an authoratari
 
 ## Signal Scanning
 
+- [Miro](https://miro.com/app/board/uXjVJcEgEQ8=/?moveToWidget=3458764635049058046&cot=14)
 - [spreadsheet](https://docs.google.com/spreadsheets/d/1NamHl--gDxMS2YVeJlK7N49RSVrjIDpPf9ATABplusY/edit?usp=sharing)
 
-## Drivers of Change Analysis
+## Personas
 
-### Social 
+- [Person 1](persona-1.html)
+    - [Miro](https://miro.com/app/board/uXjVJcEgEQ8=/?moveToWidget=3458764635048961622&cot=14)
+- [Person 2](persona-2.html)
+    - [Miro](https://miro.com/app/board/uXjVJcEgEQ8=/?moveToWidget=3458764635048961622&cot=14)
 
-### Technological
+### Drivers of Change Analysis
 
-### Economic
-
-### Ecological
-
-### Political
-
-## Day in the life
-
-[Person 1](persona-1.html)
-[Person 2](persona-2.html)
-
-## Asset Mapping
+# Asset Mapping
 
 ## Speculative Artifact
 
