@@ -128,65 +128,65 @@ _Create demographic data about a fictional, upper-middle class resident of Montc
 
 ---
 
-# Day in the Life: Sarah Chen-Martinez
+# Day in the Life: 2025 Timeframe
 
-#### 5:45 AM - Morning Routine
+# 5:45 AM - Morning Routine
 
 Sarah's Apple Watch gently vibrates her awake. She immediately checks her phone for overnight news alerts from the New York Times and Washington Post apps. After scrolling through headlines about the latest political developments and climate change reports, she starts her morning routine with a 10-minute meditation using the Headspace app.
 
-#### 6:15 AM - Coffee and Planning
+# 6:15 AM - Coffee and Planning
 
 In the kitchen, she starts her Nespresso machine and checks the family calendar on her iPad. Today is Tuesday - a NYC office day. She reviews her meeting schedule while preparing overnight oats with organic berries from Whole Foods. She quickly scans her LinkedIn feed and responds to a message from a colleague about an upcoming marketing conference.
 
-#### 6:45 AM - Family Time
+# 6:45 AM - Family Time
 
 Sarah wakes up her 12-year-old daughter Emma and 9-year-old son Diego for school. While they get ready, she prepares their lunches with organic ingredients, ensuring Emma's vegetarian preferences are met. Her husband Miguel works from home today, so he'll handle the school drop-off in the Honda Pilot.
 
-#### 7:30 AM - Commute Preparation
+# 7:30 AM - Commute Preparation
 
 Sarah drives her Tesla Model Y to the Montclair train station, listening to NPR's Morning Edition. The report on education funding policies particularly interests her, as she's planning to bring up concerns at tonight's school board meeting. She finds her usual parking spot and boards the 7:52 AM train to New York Penn Station.
 
-#### 8:05 AM - Train Commute
+# 8:05 AM - Train Commute
 
 On the train, Sarah opens her laptop and reviews presentation materials for today's 10 AM meeting with the executive team. She also checks her investment portfolio on her Schwab app - the market is down, but her diversified index fund strategy keeps her calm. Between emails, she reads articles from Harvard Business Review on her iPad.
 
-#### 9:00 AM - Office Arrival
+# 9:00 AM - Office Arrival
 
 At her Midtown Manhattan office, Sarah grabs a coffee from the lobby café and heads to her floor. She checks in with her team of five marketing managers, reviewing campaign performance metrics for their new diabetes medication launch. The morning is packed with back-to-back meetings about Q3 strategy and budget planning.
 
-#### 12:30 PM - Lunch and Networking
+# 12:30 PM - Lunch and Networking
 
 Sarah meets with a fellow Columbia alumna who works in digital marketing at a competitor. They discuss industry trends over salads at a sustainable restaurant nearby. The conversation touches on recent FDA regulations and how they're adapting their marketing strategies. She also learns about a new diversity and inclusion initiative that might work at her company.
 
-#### 2:00 PM - Executive Meeting
+# 2:00 PM - Executive Meeting
 
 The afternoon's key meeting focuses on the company's response to new healthcare legislation. Sarah presents data showing how their campaigns need to pivot to address changing demographics and regulatory requirements. Her mixed background gives her unique insights into multicultural marketing strategies.
 
-#### 4:30 PM - Collaborative Work
+# 4:30 PM - Collaborative Work
 
 Sarah spends the late afternoon in a collaborative workspace with her team, reviewing creative concepts for their fall campaign. She pushes for more inclusive imagery and messaging that reflects diverse communities. The team discusses budgets for both traditional and digital advertising channels.
 
-#### 5:45 PM - Commute Home
+# 5:45 PM - Commute Home
 
 On the train back to Montclair, Sarah catches up on personal emails and texts. She confirms dinner plans with another family for this weekend and responds to a message from the Montclair Film Festival about volunteer opportunities. She also checks her children's school portal for updates on their assignments and upcoming events.
 
-#### 6:45 PM - Evening Routine
+# 6:45 PM - Evening Routine
 
 At home, Sarah changes into yoga clothes and helps Diego with his math homework while Emma practices violin. Miguel has prepared dinner using ingredients from their weekly Whole Foods delivery. The family eats together, discussing their days and weekend plans for hiking in the nearby South Mountain Reservation.
 
-#### 7:30 PM - Community Engagement
+# 7:30 PM - Community Engagement
 
 Sarah attends the monthly school board meeting at Montclair High School. She voices concerns about budget cuts affecting the arts program and advocates for increased funding for ESL programs. She networks with other parents about organizing a fundraiser for the environmental science lab.
 
-#### 9:00 PM - Personal Time
+# 9:00 PM - Personal Time
 
 Back home, Sarah reviews her calendar for the rest of the week and confirms her Thursday evening yoga class. She spends 30 minutes reading "The Vanishing Half" by Brit Bennett for her book club meeting next week. Before bed, she checks her meditation app and sets her sleep schedule on her Apple Watch.
 
-#### 9:45 PM - Evening Wind-Down
+# 9:45 PM - Evening Wind-Down
 
 Sarah does a quick review of her investment portfolio and sets up an automatic transfer to her children's 529 education savings accounts. She scrolls through Instagram, looking at posts from friends and following accounts focused on sustainable living and educational resources. She sets her phone to Do Not Disturb mode and prepares for tomorrow's work-from-home day.
 
-### 10:00 PM - Sleep
+# 10:00 PM - Sleep
 
 Sarah reviews her gratitude journal, writing about her productive day and the positive school board meeting. She sets her Apple Watch to track her sleep and plugs in her devices to charge. Tomorrow she'll work from home, attend a virtual conference, and pick up the kids from their after-school programs.
 

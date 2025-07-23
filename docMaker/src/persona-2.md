@@ -129,7 +129,7 @@ _Create demographic data about a fictional, upper-middle class resident of Montc
 
 ---
 
-### Day in the Life: Michael "Mike" O'Sullivan
+### Day in the Life: 2025 Timeframe
 
 #### 5:30 AM - Early Start
 
