@@ -681,11 +681,49 @@ function updateScore(questionNum) {
     currentScore = score;
     questionsAnswered = Math.max(questionsAnswered, questionNum);
     
+    // Disable all inputs for this question after answering
+    disableQuestion(questionNum);
+    
     document.getElementById('currentScore').textContent = score;
     document.getElementById('citizenStatus').style.display = 'block';
     
     updateStatusDisplay();
     updateConsequenceDisplay();
+}
+
+function disableQuestion(questionNum) {
+    const questionName = 'q' + questionNum;
+    
+    // Handle radio buttons (single choice) - disable all after selection
+    const radioInputs = document.querySelectorAll(`input[name="${questionName}"][type="radio"]`);
+    if (radioInputs.length > 0) {
+        radioInputs.forEach(input => {
+            input.disabled = true;
+            input.parentElement.style.opacity = '0.7';
+            input.parentElement.style.pointerEvents = 'none';
+        });
+    }
+    
+    // Handle checkboxes (multiple choice) - prevent deselection but allow more selections
+    const checkboxInputs = document.querySelectorAll(`input[name="${questionName}"][type="checkbox"]`);
+    if (checkboxInputs.length > 0) {
+        checkboxInputs.forEach(input => {
+            if (input.checked) {
+                // Prevent unchecking selected items
+                input.onclick = function() { return false; };
+                input.style.pointerEvents = 'none';
+                input.parentElement.style.opacity = '0.8';
+            }
+        });
+    }
+    
+    // Handle sliders - disable after first interaction
+    const sliderInput = document.querySelector(`#${questionName}-slider`);
+    if (sliderInput) {
+        sliderInput.disabled = true;
+        sliderInput.style.opacity = '0.7';
+        sliderInput.style.pointerEvents = 'none';
+    }
 }
 
 function calculateCurrentScore() {
