@@ -4,6 +4,8 @@
 
 The residents of Montclair, NJ under a gradual, national shift to an authoratarian government over the next six to ten years.
 
+<img src="../output/cone-of-possibility.svg" width="600" alt="Cone of Possibility">
+
 ### Montclair, NJ
 
 ![](../output/montclairnj_600.webp)
