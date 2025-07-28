@@ -4,17 +4,17 @@
 
 The residents of Montclair, NJ under a gradual, national shift to an authoratarian government over the next six to ten years.
 
-<img src="../output/cone-of-possibility.svg" width="600" alt="Cone of Possibility">
+<img src="cone-of-possibility.svg" width="600" alt="Cone of Possibility">
 
 ### Montclair, NJ
 
-![](../output/montclairnj_600.webp)
+![](montclairnj_600.webp)
 
 - [google maps](https://maps.app.goo.gl/5JdajcaSx9zHoJQMA) 
 - [wikipedia](https://en.wikipedia.org/wiki/Montclair,_New_Jersey)
 - [municiple website](https://www.montclairnjusa.org/Home)
 
-![](../output/montclairmap.png)
+![](montclairmap.png)
 
 ## Signal Scanning
 
