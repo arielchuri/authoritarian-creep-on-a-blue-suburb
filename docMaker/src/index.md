@@ -158,6 +158,8 @@ Multiple reinforcing feedback loops where economic pressure leads to demographic
 
 ## Future Wheel
 
+[future_wheel.pdf](future_wheel.pdf)
+
 ![future_wheel.svg](future_wheel.svg)
 
 ## Speculative Artifact
