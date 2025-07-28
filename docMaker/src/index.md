@@ -180,6 +180,8 @@ All responses are confidential and contribute to important research on maintaini
 
 ## Stakeholder Engagement Design
 
+<!--
+
 ### User Interview Protocol: Civic Assessment Experience
 
 **Purpose:** Use the survey as a conversation starter to explore participants' reactions to potential authoritarian governance structures and their implications for democratic societies.
@@ -243,3 +245,5 @@ All responses are confidential and contribute to important research on maintaini
 - Clear framing as design research, not political advocacy
 
 The interview process transforms the survey from a simple assessment into a powerful tool for democratic education and critical thinking about the fragility of civic institutions.
+
+-->
