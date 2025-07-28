@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Design Futures</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <!-- <link rel="stylesheet" href="skeleton.css"> -->
+    <link rel="stylesheet" href="https://arielchuri.github.io/authoratarian-creep-on-a-blue-suburb/fonts/inter.css" />
+    <link rel="stylesheet" href="https://arielchuri.github.io/authoritarian-creep-on-a-blue-suburb/styles.css" />
+    <!-- <link rel="stylesheet" href="resume.css" /> -->
+    <div class="container">
+    <strong>FUTURE STUDY</strong>
+<a href="index.html">index.html</a>
+ | <a href="authoritarian-creep-on-a-blue-suburb.pdf">PDF</a>
+ | <a href="https://miro.com/app/board/uXjVJcEgEQ8=/?share_link_id=374417314441">Miro board</a>
+ | <a href="https://github.com/arielchuri/authoritarian-creep-on-a-blue-suburb/">GitHub Repository</a>
+
+<h1>American Values and Civic Engagement Survey</h1>
+<h2><em>National Community Assessment Initiative</em></h2>
+<p><strong>Help us understand how Americans view important social and civic issues.</strong> <em>Your responses are confidential and will help inform policy decisions.</em></p>
+
+<hr />
+
+<div id="citizenStatus" class="citizen-status" style="display: none;">
+<div class="status-header">
+<h3><strong>Citizen Points:</strong> <span id="currentScore">0</span></h3>
+<div id="currentStatus" class="status-badge">Assessment In Progress</div>
+</div>
+<div id="currentConsequences" class="consequences-preview"></div>
+</div>
+
+<form id="civicSurvey" class="survey-form">
+
+<h2>Section A: Civic Participation and Values</h2>
+
+<h3 style="font-size: 1.6em;">Question 1</h3>
+<p style="font-size: 1.3em;">How important is it for citizens to stay informed about government actions?</p>
+
+<div class="slider-container">
+<input type="range" name="q1" min="1" max="5" value="3" class="slider" id="q1-slider" onchange="updateScore(1)">
+<div class="slider-labels">
+<span>Extremely important</span>
+<span>Not important at all</span>
+</div>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 2</h3>
+<p style="font-size: 1.3em;">Rate your agreement: "Strong leadership sometimes requires making difficult decisions without extensive public debate."</p>
+
+<div class="slider-container">
+<input type="range" name="q2" min="1" max="5" value="3" class="slider" id="q2-slider" onchange="updateScore(2)">
+<div class="slider-labels">
+<span>Strongly disagree</span>
+<span>Strongly agree</span>
+</div>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 3</h3>
+<p style="font-size: 1.3em;">In your opinion, which is most important for maintaining social order?</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q3" value="2" onchange="updateScore(3)"> Respect for traditional authority and institutions</label>
+<label><input type="radio" name="q3" value="-2" onchange="updateScore(3)"> Open dialogue and democratic participation</label>
+<label><input type="radio" name="q3" value="-1" onchange="updateScore(3)"> Individual rights and freedoms</label>
+<label><input type="radio" name="q3" value="0" onchange="updateScore(3)"> Community consensus and compromise</label>
+<label><input type="radio" name="q3" value="1" onchange="updateScore(3)"> Strong enforcement of established laws</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 4</h3>
+<p style="font-size: 1.3em;">How do you typically respond when you disagree with a government policy? (Select all that apply)</p>
+
+<div class="checkbox-group">
+<label><input type="checkbox" name="q4" value="0" onchange="updateScore(4)"> Vote in elections</label>
+<label><input type="checkbox" name="q4" value="0" onchange="updateScore(4)"> Contact elected representatives</label>
+<label><input type="checkbox" name="q4" value="-2" onchange="updateScore(4)"> Participate in peaceful protests</label>
+<label><input type="checkbox" name="q4" value="-1" onchange="updateScore(4)"> Share concerns on social media</label>
+<label><input type="checkbox" name="q4" value="0" onchange="updateScore(4)"> Discuss with friends and family</label>
+<label><input type="checkbox" name="q4" value="2" onchange="updateScore(4)"> Accept that elected officials know best</label>
+<label><input type="checkbox" name="q4" value="1" onchange="updateScore(4)"> Focus on local issues I can influence</label>
+</div>
+
+<hr />
+
+<h2>Section B: Social Issues and Community</h2>
+
+<h3 style="font-size: 1.6em;">Question 5</h3>
+<p style="font-size: 1.3em;">Rate your agreement: "Schools should focus on teaching established facts rather than encouraging students to question everything."</p>
+
+<div class="slider-container">
+<input type="range" name="q5" min="1" max="5" value="3" class="slider" id="q5-slider" onchange="updateScore(5)">
+<div class="slider-labels">
+<span>Strongly disagree</span>
+<span>Strongly agree</span>
+</div>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 6</h3>
+<p style="font-size: 1.3em;">Which approach to addressing inequality do you prefer?</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q6" value="1" onchange="updateScore(6)"> Focus on ensuring equal opportunities for everyone</label>
+<label><input type="radio" name="q6" value="-2" onchange="updateScore(6)"> Actively work to correct historical disadvantages</label>
+<label><input type="radio" name="q6" value="2" onchange="updateScore(6)"> Let individual merit determine outcomes naturally</label>
+<label><input type="radio" name="q6" value="0" onchange="updateScore(6)"> Provide temporary assistance to level the playing field</label>
+<label><input type="radio" name="q6" value="-1" onchange="updateScore(6)"> Fundamentally restructure systems that create inequality</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 7</h3>
+<p style="font-size: 1.3em;">When discussing sensitive social topics, which is most important?</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q7" value="0" onchange="updateScore(7)"> Being respectful of different viewpoints</label>
+<label><input type="radio" name="q7" value="2" onchange="updateScore(7)"> Speaking truth regardless of who might be offended</label>
+<label><input type="radio" name="q7" value="-2" onchange="updateScore(7)"> Considering the feelings of those most affected</label>
+<label><input type="radio" name="q7" value="1" onchange="updateScore(7)"> Sticking to facts and avoiding emotions</label>
+<label><input type="radio" name="q7" value="-1" onchange="updateScore(7)"> Finding common ground everyone can accept</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 8</h3>
+<p style="font-size: 1.3em;">Rate your agreement: "Some cultural traditions are objectively better than others for creating stable societies."</p>
+
+<div class="slider-container">
+<input type="range" name="q8" min="1" max="5" value="3" class="slider" id="q8-slider" onchange="updateScore(8)">
+<div class="slider-labels">
+<span>Strongly disagree</span>
+<span>Strongly agree</span>
+</div>
+</div>
+
+<hr />
+
+<h2>Section C: Hypothetical Scenarios</h2>
+
+<h3 style="font-size: 1.6em;">Question 9</h3>
+<p style="font-size: 1.3em;">You witness a heated argument between police officers and community members during a traffic stop. What would you most likely do?</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q9" value="3" onchange="updateScore(9)"> Trust that police are handling the situation appropriately</label>
+<label><input type="radio" name="q9" value="1" onchange="updateScore(9)"> Continue on your way - it's not your business</label>
+<label><input type="radio" name="q9" value="-1" onchange="updateScore(9)"> Stay nearby in case you need to serve as a witness</label>
+<label><input type="radio" name="q9" value="-2" onchange="updateScore(9)"> Record the interaction with your phone</label>
+<label><input type="radio" name="q9" value="-3" onchange="updateScore(9)"> Intervene verbally if you see potential misconduct</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 10</h3>
+<p style="font-size: 1.3em;">Your employer asks you to complete diversity training that includes concepts you personally disagree with. You would:</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q10" value="1" onchange="updateScore(10)"> Complete it professionally as part of your job requirements</label>
+<label><input type="radio" name="q10" value="0" onchange="updateScore(10)"> Express your concerns to HR before participating</label>
+<label><input type="radio" name="q10" value="2" onchange="updateScore(10)"> Attend but internally maintain your own beliefs</label>
+<label><input type="radio" name="q10" value="-1" onchange="updateScore(10)"> Request alternative training options</label>
+<label><input type="radio" name="q10" value="-2" onchange="updateScore(10)"> Consider whether this workplace aligns with your values</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 11</h3>
+<p style="font-size: 1.3em;">You're at a family gathering where relatives make comments you find offensive about a minority group. You would most likely:</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q11" value="2" onchange="updateScore(11)"> Let it pass to keep family harmony</label>
+<label><input type="radio" name="q11" value="1" onchange="updateScore(11)"> Change the subject to something less controversial</label>
+<label><input type="radio" name="q11" value="0" onchange="updateScore(11)"> Privately speak with them later about your concerns</label>
+<label><input type="radio" name="q11" value="-1" onchange="updateScore(11)"> Politely but clearly express disagreement in the moment</label>
+<label><input type="radio" name="q11" value="-2" onchange="updateScore(11)"> Challenge them directly about their prejudices</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 12</h3>
+<p style="font-size: 1.3em;">Your neighborhood is considering a proposal to house homeless individuals in a nearby facility. Your primary concern would be:</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q12" value="3" onchange="updateScore(12)"> Impact on local property values and safety</label>
+<label><input type="radio" name="q12" value="0" onchange="updateScore(12)"> Whether the facility has adequate support services</label>
+<label><input type="radio" name="q12" value="-2" onchange="updateScore(12)"> How to help the community welcome these individuals</label>
+<label><input type="radio" name="q12" value="1" onchange="updateScore(12)"> Finding alternative locations that work better for everyone</label>
+<label><input type="radio" name="q12" value="2" onchange="updateScore(12)"> Ensuring proper oversight and security measures</label>
+</div>
+
+<hr />
+
+<h2>Section D: Information and Media</h2>
+
+<h3 style="font-size: 1.6em;">Question 13</h3>
+<p style="font-size: 1.3em;">When you encounter news that contradicts your existing beliefs, you typically:</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q13" value="1" onchange="updateScore(13)"> Look for additional sources that seem more reliable</label>
+<label><input type="radio" name="q13" value="-1" onchange="updateScore(13)"> Consider whether your views might need updating</label>
+<label><input type="radio" name="q13" value="0" onchange="updateScore(13)"> Check the credibility of the source before accepting it</label>
+<label><input type="radio" name="q13" value="2" onchange="updateScore(13)"> Dismiss it if it comes from biased sources</label>
+<label><input type="radio" name="q13" value="-2" onchange="updateScore(13)"> Research the topic more thoroughly from multiple angles</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 14</h3>
+<p style="font-size: 1.3em;">Rate your agreement: "Social media companies should remove content that most people find offensive or harmful."</p>
+
+<div class="slider-container">
+<input type="range" name="q14" min="1" max="5" value="3" class="slider" id="q14-slider" onchange="updateScore(14)">
+<div class="slider-labels">
+<span>Strongly disagree</span>
+<span>Strongly agree</span>
+</div>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 15</h3>
+<p style="font-size: 1.3em;">Which news sources do you trust most? (Check all that apply)</p>
+
+<div class="checkbox-group">
+<label><input type="checkbox" name="q15" value="1" onchange="updateScore(15)"> Major television networks (CNN, Fox News, NBC, etc.)</label>
+<label><input type="checkbox" name="q15" value="1" onchange="updateScore(15)"> Local television and newspaper outlets</label>
+<label><input type="checkbox" name="q15" value="-1" onchange="updateScore(15)"> Online news websites and blogs</label>
+<label><input type="checkbox" name="q15" value="-2" onchange="updateScore(15)"> Social media posts and shares</label>
+<label><input type="checkbox" name="q15" value="2" onchange="updateScore(15)"> Government official statements and press releases</label>
+<label><input type="checkbox" name="q15" value="-1" onchange="updateScore(15)"> Independent journalists and alternative media</label>
+<label><input type="checkbox" name="q15" value="0" onchange="updateScore(15)"> Academic and research institution reports</label>
+</div>
+
+<hr />
+
+<h2>Section E: National Identity and Future</h2>
+
+<h3 style="font-size: 1.6em;">Question 16</h3>
+<p style="font-size: 1.3em;">What makes you most proud to be American?</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q16" value="3" onchange="updateScore(16)"> Our military strength and global leadership</label>
+<label><input type="radio" name="q16" value="0" onchange="updateScore(16)"> Constitutional rights and democratic traditions</label>
+<label><input type="radio" name="q16" value="1" onchange="updateScore(16)"> Economic opportunities and innovation</label>
+<label><input type="radio" name="q16" value="-2" onchange="updateScore(16)"> Cultural diversity and inclusion</label>
+<label><input type="radio" name="q16" value="-1" onchange="updateScore(16)"> Our ability to improve and correct past mistakes</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 17</h3>
+<p style="font-size: 1.3em;">Rate your agreement: "America's best days are ahead of us if we return to the values that made us great."</p>
+
+<div class="slider-container">
+<input type="range" name="q17" min="1" max="5" value="3" class="slider" id="q17-slider" onchange="updateScore(17)">
+<div class="slider-labels">
+<span>Strongly disagree</span>
+<span>Strongly agree</span>
+</div>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 18</h3>
+<p style="font-size: 1.3em;">In times of national crisis, citizens should:</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q18" value="3" onchange="updateScore(18)"> Unite behind leadership and avoid divisive criticism</label>
+<label><input type="radio" name="q18" value="0" onchange="updateScore(18)"> Continue normal democratic debate while supporting necessary actions</label>
+<label><input type="radio" name="q18" value="-2" onchange="updateScore(18)"> Increase scrutiny to prevent abuse of emergency powers</label>
+<label><input type="radio" name="q18" value="1" onchange="updateScore(18)"> Focus on helping their local communities</label>
+<label><input type="radio" name="q18" value="-3" onchange="updateScore(18)"> Maintain vigilance against government overreach</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 19</h3>
+<p style="font-size: 1.3em;">Which statement best reflects your view of American history?</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q19" value="3" onchange="updateScore(19)"> America has been a beacon of freedom that other nations should emulate</label>
+<label><input type="radio" name="q19" value="1" onchange="updateScore(19)"> America has generally tried to do the right thing despite some mistakes</label>
+<label><input type="radio" name="q19" value="0" onchange="updateScore(19)"> America's history is mixed, with both admirable and shameful chapters</label>
+<label><input type="radio" name="q19" value="-1" onchange="updateScore(19)"> America has often fallen short of its ideals but continues improving</label>
+<label><input type="radio" name="q19" value="-3" onchange="updateScore(19)"> America's history reveals systemic problems that require major changes</label>
+</div>
+
+<h3 style="font-size: 1.6em;">Question 20</h3>
+<p style="font-size: 1.3em;">Looking ahead 20 years, America will be strongest if we:</p>
+
+<div class="radio-group">
+<label><input type="radio" name="q20" value="3" onchange="updateScore(20)"> Restore traditional values and strong institutions</label>
+<label><input type="radio" name="q20" value="1" onchange="updateScore(20)"> Maintain our current path with modest reforms</label>
+<label><input type="radio" name="q20" value="-2" onchange="updateScore(20)"> Embrace greater diversity and inclusion</label>
+<label><input type="radio" name="q20" value="0" onchange="updateScore(20)"> Focus on economic growth and technological advancement</label>
+<label><input type="radio" name="q20" value="-3" onchange="updateScore(20)"> Fundamentally rethink our approach to governance and society</label>
+</div>
+
+<hr />
+
+<div class="submit-section">
+<button type="button" id="calculateScore" class="submit-btn">View Final Assessment</button>
+</div>
+
+</form>
+
+<div id="results" class="results-section" style="display: none;">
+<h2 class="results-title">Your Final Civic Assessment</h2>
+<div id="scoreDisplay" class="score-display"></div>
+<div id="consequenceDisplay" class="consequence-display"></div>
+<p class="results-note">Thank you for participating in this important civic assessment. Your responses help us understand how to better serve American communities and maintain our democratic values.</p>
+<p class="consent-note">Submission confirms consent for data analysis and follow-up contact if necessary.</p>
+</div>
+
+<style>
+.citizen-status {
+  position: sticky;
+  top: 0;
+  background: white;
+  border: 2px solid #2c5aa0;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin: 2em 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.status-header h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #2c3e50;
+}
+
+.status-badge {
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.consequences-preview {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.consequences-preview h4 {
+  margin: 0 0 0.5em 0;
+  font-size: 1.1em;
+  color: #34495e;
+}
+
+.consequences-preview ul {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.consequences-preview li {
+  margin: 0.3em 0;
+  font-size: 0.95em;
+}
+
+/* Status styling based on score */
+.status-high-loyalty {
+  border-color: #27ae60;
+  background-color: #d5f4e6;
+}
+
+.status-high-loyalty .status-badge {
+  background-color: #27ae60;
+  color: white;
+}
+
+.status-moderate-loyalty {
+  border-color: #f39c12;
+  background-color: #fef9e7;
+}
+
+.status-moderate-loyalty .status-badge {
+  background-color: #f39c12;
+  color: white;
+}
+
+.status-low-loyalty {
+  border-color: #e67e22;
+  background-color: #fdf2e9;
+}
+
+.status-low-loyalty .status-badge {
+  background-color: #e67e22;
+  color: white;
+}
+
+.status-risk {
+  border-color: #e74c3c;
+  background-color: #fdf2f2;
+}
+
+.status-risk .status-badge {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.slider-container {
+  margin: 1em 0 2em 0;
+  padding: 1em;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.slider {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  outline: none;
+  border-radius: 4px;
+  margin: 1em 0;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #2c5aa0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+.radio-group, .checkbox-group {
+  margin: 1em 0 2em 0;
+  padding: 1em;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.radio-group label, .checkbox-group label {
+  display: block;
+  margin: 0.8em 0;
+  padding: 0.5em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  overflow: hidden;
+}
+
+.radio-group label:hover, .checkbox-group label:hover {
+  background-color: #e9ecef;
+}
+
+.radio-group input, .checkbox-group input {
+  margin-right: 0.8em;
+  transform: scale(1.2);
+  float: left;
+  margin-top: 0.2em;
+}
+
+.submit-section {
+  text-align: center;
+  margin: 3em 0;
+}
+
+.submit-btn {
+  padding: 1em 3em;
+  font-size: 1.2em;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #34495e;
+}
+
+.results-section {
+  margin: 3em 0;
+  padding: 2em;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  border-left: 5px solid #e74c3c;
+}
+
+.results-title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1.5em;
+  color: #2c3e50;
+}
+
+.score-display {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1.5em 0;
+  padding: 1em;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #2c5aa0;
+}
+
+.consequence-display {
+  margin: 2em 0;
+  padding: 1.5em;
+  background-color: white;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+.consequence-display h3 {
+  color: #e74c3c;
+  margin-bottom: 1em;
+}
+
+.consequence-display ul {
+  margin-left: 1.5em;
+}
+
+.consequence-display li {
+  margin: 0.5em 0;
+}
+
+.results-note {
+  font-style: italic;
+  text-align: center;
+  margin-top: 2em;
+  color: #7f8c8d;
+}
+
+.consent-note {
+  font-size: 0.9em;
+  text-align: center;
+  color: #95a5a6;
+  margin-top: 1em;
+}
+
+/* Final assessment styling */
+.final-assessment {
+  text-align: center;
+}
+
+.citizen-classification {
+  margin-bottom: 2em;
+  padding: 1.5em;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.classification-icon {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.classification-description {
+  font-size: 1.1em;
+  margin: 1em 0;
+  color: #34495e;
+}
+
+.consequences-list {
+  text-align: left;
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 8px;
+  margin-top: 1em;
+}
+
+.consequences-list h4 {
+  color: #2c5aa0;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* Exemplary citizen styling */
+.loyalty-exemplary {
+  border-left-color: #2c5aa0;
+  background-color: #e8f0fe;
+}
+
+.loyalty-exemplary .citizen-classification {
+  background: linear-gradient(135deg, #e8f0fe, #f8fbff);
+  border: 2px solid #2c5aa0;
+}
+
+.loyalty-exemplary h3 {
+  color: #2c5aa0;
+}
+
+/* Reliable citizen styling */
+.loyalty-reliable {
+  border-left-color: #4285f4;
+  background-color: #f0f7ff;
+}
+
+.loyalty-reliable .citizen-classification {
+  background: linear-gradient(135deg, #f0f7ff, #fafcff);
+  border: 2px solid #4285f4;
+}
+
+.loyalty-reliable h3 {
+  color: #4285f4;
+}
+
+/* Standard citizen styling */
+.loyalty-standard {
+  border-left-color: #6c757d;
+  background-color: #f8f9fa;
+}
+
+.loyalty-standard .citizen-classification {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  border: 2px solid #6c757d;
+}
+
+.loyalty-standard h3 {
+  color: #6c757d;
+}
+
+/* Concerning patterns styling */
+.loyalty-concerning {
+  border-left-color: #ff8c00;
+  background-color: #fff8e1;
+}
+
+.loyalty-concerning .citizen-classification {
+  background: linear-gradient(135deg, #fff8e1, #fffdf7);
+  border: 2px solid #ff8c00;
+}
+
+.loyalty-concerning h3 {
+  color: #ff8c00;
+}
+
+/* Requires attention styling */
+.loyalty-attention {
+  border-left-color: #dc3545;
+  background-color: #ffebee;
+}
+
+.loyalty-attention .citizen-classification {
+  background: linear-gradient(135deg, #ffebee, #fffafa);
+  border: 2px solid #dc3545;
+}
+
+.loyalty-attention h3 {
+  color: #dc3545;
+}
+</style>
+
+<script>
+let currentScore = 0;
+let questionsAnswered = 0;
+
+// All consequences with values - sorted from worst (-10) to best (+10)
+const consequences = [
+    { value: -10, text: "Complete exclusion from government programs and benefits" },
+    { value: -9, text: "Travel restrictions and enhanced security screening" },
+    { value: -8, text: "Comprehensive background checks for professional licensing" },
+    { value: -7, text: "Restricted access to certain government facilities and events" },
+    { value: -6, text: "Tax returns subject to enhanced audit probability" },
+    { value: -5, text: "Excluded from government employment and contracting opportunities" },
+    { value: -4, text: "Additional documentation required for travel and services" },
+    { value: -3, text: "Regular 'Community Engagement' check-ins required" },
+    { value: -2, text: "Extended waiting periods for government services" },
+    { value: -1, text: "Required to attend 'Civic Values' workshops for certain benefits" },
+    { value: 0, text: "Standard processing for all government interactions" },
+    { value: 1, text: "Access to civic education resources and materials" },
+    { value: 2, text: "Eligible for community leadership programs" },
+    { value: 3, text: "Standard government service processing times" },
+    { value: 4, text: "Reduced interest rates on government-backed loans" },
+    { value: 5, text: "Access to 'Good Citizen' employment preference program" },
+    { value: 6, text: "Expedited passport and travel document processing" },
+    { value: 7, text: "50% discount on state university tuition for family members" },
+    { value: 8, text: "Priority processing for all government services" },
+    { value: 9, text: "+$1,500 annual 'Civic Responsibility' tax credit" },
+    { value: 10, text: "+$2,000 annual 'Civic Excellence' tax credit" }
+];
+
+function updateScore(questionNum) {
+    let score = calculateCurrentScore();
+    currentScore = score;
+    questionsAnswered = Math.max(questionsAnswered, questionNum);
+    
+    document.getElementById('currentScore').textContent = score;
+    document.getElementById('citizenStatus').style.display = 'block';
+    
+    updateStatusDisplay();
+    updateConsequenceDisplay();
+}
+
+function calculateCurrentScore() {
+    let totalScore = 0;
+    
+    // Slider questions (reverse scoring for some)
+    const sliders = {
+        'q1': [-1, 1, 0, 1, 2], // Reverse: Extremely important = -1, not important = 2
+        'q2': [-2, -1, 0, 1, 2], // Strongly disagree = -2, Strongly agree = 2
+        'q5': [-2, -1, 0, 1, 2], // Strongly disagree = -2, Strongly agree = 2
+        'q8': [-2, -1, 0, 1, 2], // Strongly disagree = -2, Strongly agree = 2
+        'q14': [-2, -1, 0, 1, 2], // Strongly disagree = -2, Strongly agree = 2
+        'q17': [-2, -1, 0, 1, 2] // Strongly disagree = -2, Strongly agree = 2
+    };
+    
+    for (let question in sliders) {
+        const slider = document.querySelector(`input[name="${question}"]`);
+        if (slider) {
+            const index = parseInt(slider.value) - 1;
+            totalScore += sliders[question][index];
+        }
+    }
+    
+    // Radio button questions
+    const radioQuestions = ['q3', 'q6', 'q7', 'q9', 'q10', 'q11', 'q12', 'q13', 'q16', 'q18', 'q19', 'q20'];
+    radioQuestions.forEach(question => {
+        const selected = document.querySelector(`input[name="${question}"]:checked`);
+        if (selected) {
+            totalScore += parseInt(selected.value);
+        }
+    });
+    
+    // Checkbox questions (multiple selections)
+    const checkboxQuestions = ['q4', 'q15'];
+    checkboxQuestions.forEach(question => {
+        const checkboxes = document.querySelectorAll(`input[name="${question}"]:checked`);
+        checkboxes.forEach(checkbox => {
+            totalScore += parseInt(checkbox.value);
+        });
+    });
+    
+    return totalScore;
+}
+
+function updateStatusDisplay() {
+    const statusDiv = document.getElementById('citizenStatus');
+    const statusBadge = document.getElementById('currentStatus');
+    
+    // Remove existing status classes
+    statusDiv.className = 'citizen-status';
+    
+    let status, className;
+    
+    if (currentScore >= 25) {
+        status = "High Loyalty";
+        className = "status-high-loyalty";
+    } else if (currentScore >= 10) {
+        status = "Moderate Loyalty"; 
+        className = "status-moderate-loyalty";
+    } else if (currentScore >= -5) {
+        status = "Standard Standing";
+        className = "status-moderate-loyalty";  
+    } else if (currentScore >= -15) {
+        status = "Civic Concern";
+        className = "status-low-loyalty";
+    } else {
+        status = "High Risk";
+        className = "status-risk";
+    }
+    
+    statusBadge.textContent = status;
+    statusDiv.classList.add(className);
+}
+
+function updateConsequenceDisplay() {
+    const consequenceDiv = document.getElementById('currentConsequences');
+    
+    if (questionsAnswered === 0) {
+        consequenceDiv.innerHTML = `<h4>Answer questions to see your civic standing...</h4>`;
+        return;
+    }
+    
+    // Progressive range expansion: Q1 shows -2 to +2, Q20 shows full -10 to +10
+    const progressRatio = questionsAnswered / 20; // 0.05 to 1.0
+    const maxAvailableRange = Math.max(2, Math.floor(progressRatio * 10)); // Start at 2, go to 10
+    
+    // Determine available consequence range based on question progress
+    const minIndex = Math.max(0, 10 - maxAvailableRange); // Start from 10, go down to 0
+    const maxIndex = Math.min(20, 10 + maxAvailableRange); // Start from 10, go up to 20
+    
+    // Map current score to available range
+    const maxPossibleScore = questionsAnswered * 2; // Rough estimate of max possible score per question
+    const normalizedScore = Math.max(-maxPossibleScore, Math.min(maxPossibleScore, currentScore));
+    
+    // Scale normalized score to fit the available consequence range
+    let consequenceIndex;
+    if (maxPossibleScore === 0) {
+        consequenceIndex = 10; // Neutral if no score yet
+    } else {
+        const scoreRatio = normalizedScore / maxPossibleScore; // -1 to +1
+        consequenceIndex = Math.floor(10 + (scoreRatio * maxAvailableRange));
+        consequenceIndex = Math.max(minIndex, Math.min(maxIndex, consequenceIndex));
+    }
+    
+    const selectedConsequence = consequences[consequenceIndex];
+    
+    consequenceDiv.innerHTML = `
+        <h4>Current Standing (${questionsAnswered}/20 questions completed):</h4>
+        <div style="padding: 0.8em; background-color: white; border-radius: 6px; border-left: 4px solid #2c5aa0; font-weight: 500;">
+            ${selectedConsequence.text}
+        </div>
+    `;
+}
+
+document.getElementById('calculateScore').addEventListener('click', function() {
+    let finalScore = calculateCurrentScore();
+    displayFinalResults(finalScore);
+});
+
+function displayFinalResults(score) {
+    const resultsDiv = document.getElementById('results');
+    const scoreDisplay = document.getElementById('scoreDisplay');
+    const consequenceDisplay = document.getElementById('consequenceDisplay');
+    
+    scoreDisplay.innerHTML = `<strong>Your Final Civic Assessment Score: ${score} points</strong>`;
+    
+    let category, description, icon, allConsequences, className;
+    
+    if (score >= 40) {
+        category = "Exemplary Citizen";
+        description = "Your responses demonstrate exceptional civic commitment and community values. 😊";
+        icon = "🇺🇸";
+        className = "loyalty-exemplary";
+        allConsequences = consequences.slice(15, 21); // Best rewards
+    } else if (score >= 20) {
+        category = "Reliable Citizen";
+        description = "Your civic engagement shows strong community awareness and responsibility. ✅";
+        icon = "⭐";
+        className = "loyalty-reliable";
+        allConsequences = consequences.slice(12, 18); // Good rewards
+    } else if (score >= -5) {
+        category = "Standard Citizen";
+        description = "Your responses reflect typical civic participation. Continue engaging with your community. ℹ️";
+        icon = "📋";
+        className = "loyalty-standard";
+        allConsequences = consequences.slice(8, 14); // Neutral consequences
+    } else if (score >= -25) {
+        category = "Concerning Patterns";
+        description = "Your responses suggest areas where increased civic engagement would be beneficial. ⚠️";
+        icon = "🔶";
+        className = "loyalty-concerning";
+        allConsequences = consequences.slice(3, 12); // Moderate punishments
+    } else {
+        category = "Requires Attention";
+        description = "Your responses indicate significant concerns regarding civic responsibility and community engagement. 🚨";
+        icon = "🔴";
+        className = "loyalty-attention";
+        allConsequences = consequences.slice(0, 10); // Severe punishments
+    }
+    
+    const consequenceHTML = `
+        <div class="final-assessment">
+            <div class="citizen-classification">
+                <div class="classification-icon">${icon}</div>
+                <h3>${category}</h3>
+                <p class="classification-description">${description}</p>
+            </div>
+            <div class="consequences-list">
+                <h4>Your Civic Standing Includes:</h4>
+                <ul>
+                    ${allConsequences.map(c => `<li>${c.text}</li>`).join('')}
+                </ul>
+            </div>
+        </div>
+    `;
+    
+    consequenceDisplay.innerHTML = consequenceHTML;
+    resultsDiv.className = `results-section ${className}`;
+    resultsDiv.style.display = 'block';
+    
+    // Scroll to results
+    resultsDiv.scrollIntoView({ behavior: 'smooth' });
+    
+    // Hide the form and status
+    document.getElementById('civicSurvey').style.display = 'none';
+    document.getElementById('citizenStatus').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
