@@ -6,6 +6,12 @@ The residents of Montclair, NJ under a gradual, national shift to an authoratari
 
 <img src="cone-of-possibility.svg" width="600" alt="Cone of Possibility">
 
+## Miro Board
+
+[link](https://miro.com/app/board/uXjVJcEgEQ8=/)
+
+[![](miro-screenshot_600.png)](https://miro.com/app/board/uXjVJcEgEQ8=/)
+
 ### Montclair, NJ
 
 ![](montclairnj_600.webp)
@@ -160,7 +166,7 @@ Multiple reinforcing feedback loops where economic pressure leads to demographic
 
 [future_wheel.pdf](future_wheel.pdf)
 
-![future_wheel.svg](future_wheel.svg)
+[![future_wheel.svg](future_wheel.svg)](future_wheel.pdf)
 
 ## Speculative Artifact
 

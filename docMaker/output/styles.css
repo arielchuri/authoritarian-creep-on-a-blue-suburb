@@ -105,8 +105,8 @@ p > *:last-child {
   margin-bottom: 0;
 }
 a {
-  color: inherit;
   text-decoration: underline;
+  text-decoration-style: dotted;
   text-decoration-color: #c0bfc0;
   -webkit-text-decoration-color: #c0bfc0;
   border-radius: 5px;
